@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Portifólio React
 
-First, run the development server:
+Este é um projeto de portfólio pessoal desenvolvido em **React**, onde você pode apresentar suas habilidades, projetos e experiências de forma moderna e responsiva.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Sobre o projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este portfólio foi criado para servir como uma vitrine online dos meus trabalhos, utilizando as tecnologias mais recentes do ecossistema React. A interface é simples, elegante e focada em mostrar minhas competências e projetos de forma clara.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* React
+* React Router (se estiver usando)
+* CSS / Styled Components (ou outra tecnologia de estilo que estiver no projeto)
+* Outros pacotes (ex: axios, react-icons, etc)
 
-## Learn More
+## Como executar o projeto localmente
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone o repositório:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/sousaferreira/portifolio-react.git
+   ```
+2. Entre na pasta do projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   cd portifolio-react
+   ```
+3. Instale as dependências:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm start
+   ```
+5. Abra seu navegador e acesse:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```
+   http://localhost:3000
+   ```
+
+## Estrutura do projeto
+
+* `/src` - Código fonte React
+* `/public` - Arquivos estáticos
+* `package.json` - Configurações e dependências do projeto
+
+## Como contribuir
+
+1. Fork este repositório.
+2. Crie uma branch para sua feature (`git checkout -b minha-nova-feature`).
+3. Faça suas alterações e commite (`git commit -m 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin minha-nova-feature`).
+5. Abra um Pull Request.
+
